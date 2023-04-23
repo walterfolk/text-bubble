@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    transition: all;
+    transition-duration: 0.25s;
+}
+
+body{
+    background: #010104;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#text-bubble{
+    font-size: 70px;
+    color: #b3b3fe;
+    font-weight: 100;
+    cursor: default;
+    
+}
+
+.hovered {
+    color: #fbfbfb;
+    font-weight: 900;
+}
+
+.hovered-adjacent{
+    color: #ccccfa;
+    font-weight: 400;
+}
